@@ -1,0 +1,163 @@
+main section{
+  text-align: center;
+}
+
+main .title{
+  padding: 10px 0 10px 0;
+  font-size: 40px;
+}
+
+main .subtitle{
+  font-size: 24px;
+}
+
+main p{
+  line-height: 30px;
+}
+
+main .about-description{
+  margin-top: 20px;
+}
+
+main .container{
+  width: 96%;
+}
+
+/* main .palestrantes{
+  background-color: #F17D50;
+  color: white;
+ 
+}
+main .palestrantes h3{
+  text-transform: uppercase;
+}
+main .palestrantes .cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+main .palestrantes .card{
+  background-color: white;
+  color: black;
+  line-height: 30px;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px;
+  width: 200px;
+}
+
+main .palestrantes .card .cargo{
+  font-weight: bold;
+}
+
+main .palestrantes .card img{
+  width: 100%;
+  border-radius: 50%;
+} */
+
+.panel-speakers {
+
+  padding-top: 40px;
+  background: #EF7247;
+}
+
+.panel-speakers .about-speakers {
+
+  text-align: center;
+}
+
+.panel-speakers .title {
+
+  color: white;
+  font-size: 40px;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+
+.panel-speakers .subtitle {
+  color: white;
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.panel-speakers .speakers {
+  text-align: center;
+}
+
+.panel-speakers .speaker {
+
+  display: inline-block;
+  width: 250px;
+  background-color: white;
+  margin: 0 16px 32px 0;
+  padding: 18px;
+  border-radius: 10px;
+  vertical-align: top;
+}
+
+.panel-speakers .speaker-image {
+
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+}
+
+.panel-speakers .speaker-name {
+
+  padding-top: 10px;
+}
+
+.panel-speakers .speaker-bio {
+
+  font-weight: bold;
+}
+
+.panel-speakers .speaker-speach {
+
+  margin-top: 16px;
+  padding-top: 8px;
+  font-size: 16px;
+}
+.form{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 30px;
+}
+.form h3{
+  font-size: 32px;
+  text-transform: uppercase;
+  color: #EF7247;
+}
+.form .form-inscricao{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  line-height: 40px;
+}
+.form .form-inscricao label{
+  font-weight: bold;
+  font-size: 20px;
+}
+.form .form-inscricao input{
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 8px;
+  box-shadow: 0 1px 5px 0 #48A3A6; 
+}
+
+.form .form-inscricao button{
+  background-color: #48A3A6;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 24px 40px 24px 40px;
+  max-width: 300px;
+  border-color: rgb(187, 187, 187);
+  margin: 0 auto;
+  margin-top: 20px;
+}

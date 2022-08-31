@@ -1,0 +1,92 @@
+header {
+  background-image: url('../img/destaque.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px 0 30px 0;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin: 2px;
+  transition: background-color 0.5s;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.menu li:hover {
+  background-color: #48A3A6;
+}
+
+header .title, header .subtitle {
+  margin: 5px 0 5px 0;
+  text-shadow: 4px 4px 10px rgb(77, 77, 77);
+}
+
+header .title {
+  font-size: 2.3em;
+  color: #ffffff;
+}
+
+header .subtitle {
+  font-size: 2em;
+  color: #6bff66;
+}
+
+@media (min-width: 650px) {
+  header .title {
+    font-size: 50px;
+  }
+  header .subtitle {
+    font-size: 48px;
+  }
+}
+header .titles{
+  margin-top: 28px;
+}
+
+.inscreva-se {
+  /* color: #ffffff;
+  background-color: #48A3A6;
+  padding: 15px 30px 15px 30px;
+  border-radius: 5px;
+  border-width: 0px;
+  border: #000000 1px solid;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+
+  display: inline-block;
+  padding: 25px 50px;
+  margin: 5px;
+  background-color: #48A3A6;
+  border-radius: 8px;
+  box-shadow: 1px 1px 5px black;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.inscreva-se a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.subscribe{
+  margin-top: 28px;
+}

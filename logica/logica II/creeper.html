@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creeper</title>
+</head>
+<body>
+  <canvas width="600" height="400"></canvas>
+  <script>
+    var tela = document.querySelector('canvas');
+
+    var pincel = tela.getContext('2d');
+
+    function setPincel( x,y,w,h){
+      pincel.fillRect(x,y,w,h);
+
+    }
+    pincel.fillStyle = 'darkgreen';
+    setPincel(125,50,350,300);
+    
+    pincel.fillStyle = 'black';
+    setPincel(175,100,90,90);
+    setPincel(335,100,90,90);
+    setPincel(265,190,70,100);
+    setPincel(225,240,40,110);
+    setPincel(335,240,40,110);
+
+  </script>
+</body>
+</html>

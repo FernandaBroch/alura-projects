@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function mostra(valor){
+            document.write(valor);
+        }
+        let numero = 30;
+        while( numero <= 40){
+            if(numero != 33 && numero != 37 ){
+                mostra(numero);
+                mostra("<br>")
+            }
+            numero += 1
+        }
+        mostra("FIM");
+    </script>
+</body>
+</html>
